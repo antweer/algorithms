@@ -1,2 +1,2 @@
 # Algorithms
-* ##Bubble Sort 
+*##Bubble Sort 
