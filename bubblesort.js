@@ -13,7 +13,7 @@ function bubbleSort(array)
         array[i+1] = temp;
         swapped = true;
       }
-    }
+    }    
   } while (swapped);
 }
  
@@ -26,3 +26,4 @@ function triangle(size){
         console.log(' '.repeat(i) + '*'.repeat(size-i));
     }
 }
+
