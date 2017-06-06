@@ -24,7 +24,9 @@ function fibonnaci(num){
 
 //Bonus recursive exponential function
 function exp(num, pwr){
-  if(pwr === 0) return 1;
+  if(pwr === 0){
+    return 1;
+  }
   return num*exp(num, pwr-1);
 }
 
