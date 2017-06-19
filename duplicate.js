@@ -18,3 +18,12 @@ function dupCheck(arr){
 }
 
 dupCheck(a);
+
+function reverse(arr){
+  let revArr = [];
+  let j = arr.length;
+  for(let i = 0; i < j; i++){
+    revArr.push(arr.pop());
+  }
+  return revArr
+}
